@@ -1,0 +1,14 @@
+<div class="media">
+  <div class="media-left">
+    <%= image_tag conversation.originator.image(:thumb) %>
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading">
+      <%= link_to conversation.originator.first_name, user_path(conversation.originator) %> <br>
+      <small><b>Subject: </b><%= conversation.subject %></small><br>
+      <small><b>Date: </b><%=  conversation.messages.last.created_at.strftime("%A, %b %d, %Y at %I:%M%p") %></small>
+    </h4>
+    <%= truncate conversation.messages.last.body, length: 145 %>
+    <%= link_to "View", conversation_path(conversation)  %>
+  </div>
+</div>

@@ -1,0 +1,27 @@
+To run server:
+rails server -b $IP -p $PORT
+
+Server link:
+https://doggie-walk-jza154.c9users.io/
+https://afternoon-refuge-86211.herokuapp.com/
+
+Admin access:
+https://doggie-walk-jza154.c9users.io/admin (cloud9)
+https://afternoon-refuge-86211.herokuapp.com/admin (heroku)
+login: admin@example.com / admin@sfu.ca [local]
+password: password / 123456 [local]
+
+To do:
+https://trello.com/b/Ke4GoTyx/proj
+
+
+*** This is the new project!
+
+https://afternoon-refuge-86211.herokuapp.com/users
+
+
+https://www.synbioz.com/blog/search_by_location_with_geocoder
+
+
+mailboxer subject require
+mails box page seperation
